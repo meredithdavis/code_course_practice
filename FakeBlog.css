@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+/*	margin-top: 20px;*/
+	font-family: Source Sans Pro;
+	font-size: 15px;
+/*
+	margin-left:20%;
+	margin-right: 20%;
+	the other way is a little more realistic looking
+*/
+	margin: 20px auto;
+	max-width: 700px;
+	width: 80%;
+}
+
+h1{
+	color: #2c3e50;
+/*	font-size: 4em;*/
+	
+}	
+.date{
+	color: #3498db;	
+	letter-spacing: 0.2rem;
+/*	use rem instead of em, it is relative to the root element insead of the size of the parent element(s)*/
+	font-size: 1em;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: 400
+	
+	
+}
+.post{
+/*	margin-top: 30px;*/
+	margin-bottom: 30px;
+}
+p{
+	line-height: 1;
+	font-weight: 100;
+	
+}
+.first{ 
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr{
+	border: 0.5px solid #bdc3c7;
+}

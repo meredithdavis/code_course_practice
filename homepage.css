@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(https://live.staticflickr.com/65535/50161099093_dfb592b2b3_z.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	/*Can put the color here, buttons and navbar will not change tho because they are more specific. jk, this is what Colte said, but the button changed too.*/
+}
+
+navbar{
+	color: antiquewhite;
+}
+
+html{
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
+	
+}
+
+.navbar {
+	font-family: 'Lobster';
+	font-style: bold;
+}
+
+h1, h3 {
+	color: antiquewhite;
+	font-family: 'Lato', cursive;
+	text-shadow: 0px 2px 6px rgba(0,0,0,0.4),
+				 0px 6px 13px rgba(0,0,0,0.1),
+			     0px 14px 23px rgba(0,0,0,0.1);
+}
+
+h1 {
+	font-weight: bold;
+	font-zize: 5em;
+	text-shadow: 0px 2px 6px royalblue,
+				 0px 6px 13px indigo,
+			     0px 14px 23px purple;
+}
+
+hr {
+	color: purple;
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	/*this border stuff helps the white show upon the dark background, drop shadow and the like. */
+}
